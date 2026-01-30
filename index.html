@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Alonso | Desarrollador Backend & Móvil</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-container">
+        <a href="#" class="logo">Lucas<span> Alonso Escalante Delgado</span></a>
+        <nav class="nav-desktop">
+          <ul class="nav-links">
+            <li><a href="#home" class="active">Presentación</a></li>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#aptitudes">Aptitudes</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contactos</a></li>
+          </ul>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <div class="mobile-nav" id="mobile-nav-links">
+        <a href="#home">Presentación</a>
+        <a href="#about">Sobre mí</a>
+        <a href="#aptitudes">Aptitudes</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contactos</a>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text auto-show">
+          <span class="badge-pill">Estudiante en Formación</span>
+          <h1>
+            Lucas Alonso <br />
+            Escalante Delgado
+          </h1>
+          <h2 class="hero-subtitle-main">
+            <span class="gradient-text"
+              >Programador en formación en busca de aprendizaje continuo</span
+            >
+          </h2>
+          <p class="hero-subtitle-desc">
+            Estudiante de Computación e Informática con capacidad técnica para
+            intervenir en todas las capas de una aplicación, garantizando una
+            integración fluida entre Frontend y Backend.
+          </p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+            <a
+              href="assets/Lucas_Alonso_CV.pdf"
+              download
+              class="btn btn-outline"
+            >
+              <i class="fas fa-download"></i> Descargar CV
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual auto-show delay-200">
+          <div class="code-window">
+            <div class="window-header">
+              <span class="dot red"></span><span class="dot yellow"></span
+              ><span class="dot green"></span>
+            </div>
+            <div class="window-body">
+              <pre><code><span class="c-purple">class</span> <span class="c-yellow">StudentDev</span> {
+  <span class="c-purple">String</span> focus = <span class="c-green">"Full Stack"</span>;
+  <span class="c-purple">String[]</span> stack = {
+    <span class="c-green">"Angular"</span>, 
+    <span class="c-green">"Java"</span>,
+    <span class="c-green">"Spring Boot"</span>,
+    <span class="c-green">"PostgreSQL"</span>
+  };
+}</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container scroll-hidden">
+        <h2 class="section-title">Sobre mí</h2>
+        <div class="about-grid">
+          <div class="about-bio">
+            <p>
+              Estudiante de programación de la carrera de Computación e
+              Informática con una buena base técnica en el ciclo de vida
+              completo de aplicaciones web, especializado en la integración de
+              soluciones para Frontend y para Backend.
+            </p>
+            <p style="margin-top: 1rem">
+              Cuento con la capacidad para desarrollar lógica de servidor en
+              lenguajes como <strong>Java, C# y Python</strong>, además de
+              gestionar la persistencia de datos en
+              <strong>MySQL y PostgreSQL</strong>. Destaco por el uso
+              estratégico de herramientas de IA para la optimización de código y
+              aprendizaje continuo.
+            </p>
+          </div>
+          <div class="about-card-info">
+            <div class="info-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div><strong>Carrera</strong><br />Computación e Informática</div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-code-branch"></i>
+              <div>
+                <strong>Enfoque</strong><br />Full Stack Integral & Móvil
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="aptitudes" class="section services-bg">
+      <div class="container scroll-hidden">
+        <h2 class="section-title">Aptitudes Técnicas</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Full Stack Integral</h3>
+            <p>
+              Intervención en todas las capas de una aplicación, garantizando
+              integración fluida entre Frontend y Backend.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fab fa-react"></i>
+            <h3>Frontend Moderno</h3>
+            <p>
+              Dominio en HTML5, CSS3 y JS. Uso de React y Vite para la creación
+              de componentes reutilizables.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fab fa-java"></i>
+            <h3>Backend Moderno</h3>
+            <p>
+              Dominio en Java, C# y Python. Uso de Spring Boot y .NET para la
+              creación de componentes reutilizables.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-database"></i>
+            <h3>Bases de Datos</h3>
+            <p>
+              Diseño detallado de esquemas relacionales (DER). Administración
+              sólida en MySQL, PostgreSQL y MongoDB.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fab fa-docker"></i>
+            <h3>Despliegue</h3>
+            <p>
+              Manejo de entornos con Docker y configuración de máquinas
+              virtuales (VMware) para portabilidad.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fab fa-tools"></i>
+            <h3>Ingeniería Asistida por IA</h3>
+            <p>
+              Integración estratégica de herramientas de IA para la auditoría de
+              sintaxis, refactorización y aceleración del ciclo de investigación
+              técnica.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container scroll-hidden">
+        <h2 class="section-title">Tecnologías</h2>
+        <div class="stack-grid">
+          <div class="stack-category">
+            <h3><i class="fas fa-terminal"></i> Lenguajes</h3>
+            <div class="chips">
+              <span class="chip">Java</span><span class="chip">C#</span
+              ><span class="chip">Python</span
+              ><span class="chip">JavaScript</span
+              ><span class="chip">HTML5</span><span class="chip">CSS3</span>
+            </div>
+          </div>
+          <div class="stack-category">
+            <h3><i class="fas fa-tools"></i> Software & Herramientas</h3>
+            <div class="chips">
+              <span class="chip">IntelliJ IDEA</span
+              ><span class="chip">Visual Studio Code</span
+              ><span class="chip">Visual Studio 2022</span
+              ><span class="chip">Android Studio</span
+              ><span class="chip">MySQL</span
+              ><span class="chip">PostgreSQL</span
+              ><span class="chip">MongoDB</span
+              ><span class="chip">SQLServer</span
+              ><span class="chip">Git/GitHub</span
+              ><span class="chip">Docker</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title scroll-hidden">
+          Proyectos Académicos Desarrollados
+        </h2>
+
+        <div class="projects-grid">
+          <article class="project-card scroll-hidden">
+            <div class="pc-image">
+              <img
+                src="assets/proyecto_bodega.png"
+                alt="Aplicación web de ventas e inventario para bodega"
+              />
+            </div>
+            <div class="pc-content">
+              <h4>Ventas e Inventario "Bodega Adriana"</h4>
+              <p>
+                Sistema web robusto para la gestión comercial. Incluye control
+                de stock, procesamiento de ventas en tiempo real y persistencia
+                de datos relacionales.
+              </p>
+              <div class="pc-tags">
+                <span>ASP.NET Core 9</span><span>C#</span
+                ><span>PostgreSQL</span>
+              </div>
+            </div>
+            <div class="pc-footer">
+              <a
+                href="https://github.com/LucasAED/Aplicaci-n-web-de-ventas-e-inventario-para-bodega"
+                target="_blank"
+                class="btn-github-card"
+              >
+                <i class="fab fa-github"></i> Ver Código
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card scroll-hidden">
+            <div class="pc-image">
+              <img
+                src="assets/proyecto_biblioteca.png"
+                alt="Aplicación web de gestión para una biblioteca"
+              />
+            </div>
+            <div class="pc-content">
+              <h4>Gestión de Biblioteca y Registro RUC</h4>
+              <p>
+                Aplicación administrativa para el control de material
+                bibliográfico y validación de registros. Optimizado para una
+                gestión rápida y segura.
+              </p>
+              <div class="pc-tags">
+                <span>ASP.NET MVC</span><span>C#</span><span>PostgreSQL</span>
+              </div>
+            </div>
+            <div class="pc-footer">
+              <a
+                href="https://github.com/LucasAED/Aplicacion-de-gestion-ruc-para-biblioteca"
+                target="_blank"
+                class="btn-github-card"
+              >
+                <i class="fab fa-github"></i> Ver Código
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card scroll-hidden">
+            <div class="pc-image">
+              <img
+                src="assets/proyecto_app_productos.png"
+                alt="Aplicación móvil para registro y listado de productos"
+              />
+            </div>
+            <div class="pc-content">
+              <h4>Gestión de Productos (Móvil)</h4>
+              <p>
+                App nativa para Android que permite el mantenimiento de
+                inventarios desde dispositivos móviles con una interfaz fluida
+                basada en Material Design.
+              </p>
+              <div class="pc-tags">
+                <span>Android Nativo</span><span>Kotlin</span
+                ><span>Gradle</span>
+              </div>
+            </div>
+            <div class="pc-footer">
+              <a
+                href="https://github.com/LucasAED/Aplicacion-movil-de-gestion-de-productos"
+                target="_blank"
+                class="btn-github-card"
+              >
+                <i class="fab fa-github"></i> Ver Código
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card scroll-hidden">
+            <div class="pc-image">
+              <img
+                src="assets/proyecto_app_pedidos.png"
+                alt="Aplicación móvil para registro y confirmación de pedidos"
+              />
+            </div>
+            <div class="pc-content">
+              <h4>Sistema de Toma de Pedidos</h4>
+              <p>
+                Aplicación móvil enfocada en la experiencia de usuario para el
+                registro y seguimiento de órdenes de venta con transferencia
+                segura de datos.
+              </p>
+              <div class="pc-tags">
+                <span>Android SDK</span><span>Kotlin</span><span>Intents</span>
+              </div>
+            </div>
+            <div class="pc-footer">
+              <a
+                href="https://github.com/LucasAED/Aplicacion-movil-de-gestion-de-pedidos"
+                target="_blank"
+                class="btn-github-card"
+              >
+                <i class="fab fa-github"></i> Ver Código
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2026 Lucas Alonso Escalante Delgado.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
